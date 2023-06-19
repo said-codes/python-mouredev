@@ -1,5 +1,8 @@
 ### Lists ###
 # Lists are a collection of items in a particular order.
+# Lists are mutable, meaning that we can change the items in the list.
+# Lists are written with square brackets.
+
 my_list = list()
 my_other_list = []
 
