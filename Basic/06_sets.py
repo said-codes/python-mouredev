@@ -32,10 +32,8 @@ my_other_set.clear()
 print(len(my_other_set))
 
 #del my_other_set # it deletes the set
-
 my_set = {"Said", "Valencia", "said-codes", 28}
 my_other_set = {"Kotlin", "Ruby", "Python", "JavaScript"}
 my_new_set = my_set.union(my_other_set)
 print(my_new_set.union({"Java"}))
-
 print(my_other_set.difference(my_set))
