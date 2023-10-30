@@ -1,5 +1,8 @@
 ### Hello World ###
+
+#This is a one-line comment : Hello python
 print("Hello Python")
+# print with simple quotes
 print('Hello World')
 
 """
