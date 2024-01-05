@@ -1,6 +1,6 @@
-### Dictionaries ###
-# Dictionaries are a data structure that allow us to store key-value pairs.
-# A key-value pair is a way to associate data with a name.
+#Dictionaries
+#Dictionaries are a data structure that allow us to store key-value pairs.
+#A key-value pair is a way to associate data with a name.
 
 my_dict = dict()
 my_other_dict = {}
@@ -29,8 +29,8 @@ print(my_other_dict["title"])
 my_dict["speaks"] = {"Spanish", "English", "French"}
 print(my_dict)
 
-#del my_dict["speaks"]
-#print(my_dict)
+del my_dict["speaks"]
+print(my_dict)
 
 print("occupation" in my_dict)
 print("Said" in my_dict.values())

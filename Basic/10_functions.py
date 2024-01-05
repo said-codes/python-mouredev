@@ -1,5 +1,5 @@
-### Functions ###
-# Functions are a way to organize code that performs a specific task.
+#Functions
+#Functions are a way to organize code that performs a specific task.
 
 def my_function():
     print("Hello from a function")

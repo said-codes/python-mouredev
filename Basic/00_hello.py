@@ -1,19 +1,12 @@
-### Hello World ###
+# This is a single line comment
+"""This is a multi-line
+ comment : Hello python"""
 
-#This is a one-line comment : Hello python
 print("Hello Python")
-# print with simple quotes
-print('Hello World')
-
-"""
-This is
-a multi-line
-comment
-"""
 
 #checking the data type
-print(type('Hello Python')) # string
-print(type(5)) # integer
-print(type(5.5)) # float
-print(type(True)) # boolean
-print(type(1 + 2j)) # complex number
+print(type('Hello Python'))
+print(type(5))
+print(type(5.5))
+print(type(True))
+print(type(1 + 2j))

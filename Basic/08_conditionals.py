@@ -1,4 +1,4 @@
-### Conditionals ###
+#Conditionals
 
 my_condition = False
 
@@ -16,7 +16,8 @@ elif number == 35:
 else:
     print("The number isn't between 10 and 20 and also is different than 35")
 
-my_string = "" # Empty string is False
+#Empty string is False
+my_string = ""
 
 if not my_string:
     print("The string is empty")

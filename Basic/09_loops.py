@@ -1,16 +1,17 @@
-### Loops ###
-# The loops are used to repeat a block of code several times.
+#Loops
+#The loops are used to repeat a block of code several times.
 
-# While
+#While
 number = 0
 while number < 10:
     print(number)
-    number += 1  # number = number + 1
+    # number = number + 1
+    number += 1
 else:
     print("Number is greater than 10")
 
-number = 0
 
+number = 0
 while number < 20:
     if number == 10:
         print("Number is 10\nbreak")
@@ -22,8 +23,8 @@ while number < 20:
         print(number)
     number += 1
 
-# For
-# An iterable is an object that can be iterated over.
+#For
+#An iterable is an object that can be iterated over.
 my_list = [1, 2, 3, 4, 5]
 my_tuple = (28, 89, 20, 40)
 my_set = {10, 21, 30, 4}
@@ -38,14 +39,13 @@ for item in my_tuple:
 for item in my_set:
     print(item)
 
+
 for item in my_dict:
     if item == "age":
-        # continue
         break
     else:
-        print(item)  # it will print only keys
+        print(item)
 else:
-    # it will print only when the for loop is finished and not when the break is executed
     print("The end")
 
 

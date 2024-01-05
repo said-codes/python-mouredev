@@ -1,23 +1,25 @@
-### Sets ###
-# A set is a collection of items that is unordered, unchangeable, and unindexed.
-# Sets are written with curly brackets, and they have no special meaning to Python.
-# Sets are mutable, meaning that we can add or remove items from them.
+#Sets
+#A set is a collection of items that is unordered, unchangeable, and unindexed.
+#Sets are written with curly brackets, and they have no special meaning to Python.
+#Sets are mutable, meaning that we can add or remove items from them.
+# The sets doesn't accept duplicates.
 
 my_set = set()
 my_other_set = {}
 
 print(type(my_set))
-print(type(my_other_set))
+print(type(my_other_set)) #initially it is a dictionary
 
 my_other_set = {"Said", "Valencia", 28}
 print(type(my_other_set))
-
 print(len(my_other_set))
 
 my_other_set.add("said-codes")
-print(my_other_set) # a set is unordered
+#a set is unordered
+print(my_other_set)
 
-my_other_set.add("said-codes") # a set does not allow duplicates
+#a set does not allow duplicates
+my_other_set.add("said-codes")
 print(my_other_set)
 
 my_other_set.remove("said-codes")

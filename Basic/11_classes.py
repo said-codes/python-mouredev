@@ -1,5 +1,5 @@
-### Classes ###
-# The classes in python are blueprints for creating objects.
+#Classes
+#The classes in python are blueprints for creating objects.
 
 class MyEmptyClass:
     pass
