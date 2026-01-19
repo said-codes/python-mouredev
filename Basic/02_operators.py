@@ -8,6 +8,7 @@ print(19 / 8)
 print(10 // 3)
 print(10 % 2)
 print(2 ** 3)
+
 print("Hello " + "Python " + "How's it going?")
 print("Hello " + str(5))
 print("Hello " * 3)
