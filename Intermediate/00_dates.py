@@ -7,8 +7,6 @@ from datetime import date
 from datetime import timedelta
 
 
-
-
 now = datetime.now()
 timestamp = datetime.timestamp(now)
 
@@ -32,12 +30,14 @@ print_date(now)
 
 
 current_time = time(now.hour, now.minute, now.second)
+
 print(current_time)
 print(current_time.hour)
 print(current_time.minute)
 print(current_time.second)
 
 current_date = date(now.year, now.month, now.day)
+
 print(current_date)
 print(current_date.year)
 print(current_date.month)

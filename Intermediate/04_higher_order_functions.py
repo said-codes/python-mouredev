@@ -1,5 +1,6 @@
 # Higher order functions
 from functools import reduce
+
 def sum_one(value):
     return value + 1
 

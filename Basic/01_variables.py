@@ -1,22 +1,27 @@
 # Variables
-my_string_variable = "Hello String Variable"
-my_int_variable = 8
-my_bool_variable = True
-my_int_to_str_variable = str(my_int_variable)
+str_variable= "Hello String Variable"
+number = 8
+is_developer = True
+str_number = str(number)
 
 
-print(my_string_variable, my_int_variable,my_bool_variable)
-print(type(my_int_to_str_variable))
-print(my_string_variable, my_int_variable,my_bool_variable)
-print("My Boolean variable is : " , my_bool_variable)
-print(len("this is a str"))
-print(len(my_string_variable))
+print(str_variable, number,is_developer)
+print(f"Type of str number variable: {type(str_number)}")
+print("My Boolean variable is : " , is_developer)
+print(f"The length of the string is: {len('this is a str')}")
+print(f"The length of the str variable is:{len(str_variable)}")
 
-name, surname, alias, age= "Said", "Valencia",  "saidcodes", 28
+#variables in one line
+name, surname, alias, age = "Said", "Valencia",  "saidcodes", 30
 print("My name is : ",name, surname, "and my alias is :", alias, "and I'am", age, "years old")
+
 # Do we force the type ?, no, we are only indicating the data type we want it to be
 first_name : str = "Said"
 first_name = 8
 print(type(first_name))
 
+#Inputs
+first_name = input("What is your name? : ")
+age = input("How old are you? :" )
 
+print("Your name is : ", first_name, "and you are", age, "years old")
