@@ -72,9 +72,10 @@ Cada línea de código en este repositorio está escrita con la intención de:
 
 ¿También estás aprendiendo Python? ¡Me encantaría conectar contigo!
 
-- 💼 **LinkedIn**: [https://www.linkedin.com/in/valencia-castrillo-said/`]
-- 📧 **Email**: saidvalenciacastrillo@gmail.com
-- 🌐 **Portfolio**: [https://mi-portafolio-blush-rho.vercel.app/]
+- 💼 **LinkedIn**: [valencia-castrillo-said](https://www.linkedin.com/in/valencia-castrillo-said/)
+- 📧 **Email**: [saidvalenciacastrillo@gmail.com](mailto:saidvalenciacastrillo@gmail.com)
+- 🌐 **Portfolio**: [mi-portafolio](https://mi-portafolio-blush-rho.vercel.app/)
+
 
 ---
 
